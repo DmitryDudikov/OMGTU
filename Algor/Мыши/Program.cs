@@ -42,7 +42,7 @@ namespace Prog
             int rs = pointer - W;
             int answer = (K - rs) % K;
 
-            Console.WriteLine("Ответ: {0}", answer);
+            Console.WriteLine($"Ответ: {answer}");
         }
     }
 }
